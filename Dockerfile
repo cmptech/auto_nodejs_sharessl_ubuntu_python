@@ -1,4 +1,4 @@
-FROM cmptech/nodejs_sharessl_ubuntu:1804
+FROM cmptech/nodejs_sharessl_ubuntu
 
 Maintainer Wanjo Chan ( http://github.com/wanjochan/ )
 
