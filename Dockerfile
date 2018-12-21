@@ -6,5 +6,5 @@ RUN apt update && apt install -y python build-essential procps iputils-ping node
 RUN echo export PATH=/\$NODE_VERSION/bin:\$PATH >> /node_env.sh
 
 RUN . /node_env.sh \
-&& node-gyp install
+&& node-gyp install \
 && node -v
